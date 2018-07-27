@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         myFriends.add("Churton");
         myFriends.add("Lukas");
         myFriends.add("Devon");
-        myFriends.add("Kaycee");
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, myFriends);
 
